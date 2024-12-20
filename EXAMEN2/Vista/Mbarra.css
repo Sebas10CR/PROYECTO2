@@ -1,0 +1,47 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+
+li {
+    display: inline-block;
+}
+
+
+a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    
+    a.active {
+        background-color: #3399FF;
+        font-weight: bold;
+    }
+
+    
+    a:hover {
+        background-color: #1E72CC;
+    }
+
+
+div {
+    margin-top: 20px;
+}
